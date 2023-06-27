@@ -14,10 +14,10 @@
 
 ## Sobre
 
-Projeto final da disciplina de Inteligência Artificial do curso de Engenaria de Computação do CEFET/MG ministrado pelo professor Rogério Martins Gomes, onde o algoritmo de busca A* calcula a melhor rota de um labitinto gerado a partir de um nó inicial, nó de destino e obstáculos escolhidos pelo usuário em uma GUI.
+Projeto final da disciplina de Inteligência Artificial do curso de Engenharia de Computação do CEFET/MG ministrado pelo professor Rogério Martins Gomes, onde o algoritmo de busca A* calcula a melhor rota de um labirinto gerado a partir de um nó inicial, nó de destino e obstáculos escolhidos pelo usuário em uma GUI.
 
 ## Escopo do projeto
-O projeto aborda questões trabalhadas duarante a disciplina, como resolução de problemas por métodos de busca, nesse caso o algoritmo A*. Todos esse conceitos foram pensados e aplicados durante o desenvolvimento do projeto.
+O projeto aborda questões trabalhadas duarante a disciplina, como resolução de problemas por métodos de busca, nesse caso o algoritmo A*. Todos esses conceitos foram pensados e aplicados durante o desenvolvimento do projeto.
 
 ### Stack utilizada
 
