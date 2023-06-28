@@ -54,11 +54,13 @@ def astar_search(grid, start, dest):
 
     heapq.heappush(open_list, start_node)
 
+    min_total_nodes = []
+
     while open_list:
         current_node = heapq.heappop(open_list)
 
         if (current_node.x, current_node.y) == (dest_node.x, dest_node.y):
-            return reconstruct_path(current_node)
+            min_total_nodes.append(current_node)
 
         closed_set.add((current_node.x, current_node.y))
 
@@ -73,6 +75,10 @@ def astar_search(grid, start, dest):
             neighbour.parent = current_node
 
             heapq.heappush(open_list, neighbour)
+
+    if min_total_nodes:
+        min_total_node = min(min_total_nodes, key=lambda node: node.totalCost)
+        return reconstruct_path(min_total_node)
 
     return None
 
